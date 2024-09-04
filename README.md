@@ -1,6 +1,7 @@
 # Raydium Pairs Volume Bot
 
-This bot is designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions simultaneously on the Raydium platform. It leverages Solana's blockchain technology to perform these operations efficiently.
+This bot is designed to increase the volume of a certain token in Raydium.
+This will help tokens increase their volume in the market and value as well.
 
 ## Features
 
@@ -11,51 +12,6 @@ This bot is designed to automate the distribution of SOL to multiple wallets and
 - **Sell Mode**: Gradually sells all tokens in sub-wallets through small transactions.
 - **Token Pair Settings**: Configurable token mint and pool ID for swap operations.
 - **Logging**: Supports adjustable logging levels for better monitoring and debugging.
-
-## Environment Variables
-
-The bot uses the following environment variables, which should be defined in a `.env` file:
-
-```env
-PRIVATE_KEY=                 # Private key for the main wallet
-RPC_ENDPOINT=                # RPC endpoint for Solana
-RPC_WEBSOCKET_ENDPOINT=      # RPC WebSocket endpoint for Solana
-
-####### BUY SETTING #######
-IS_RANDOM=true               # Enable random buy amounts
-DISTRIBUTION_AMOUNT=0.01     # Amount of SOL to distribute to each wallet
-BUY_AMOUNT=0.01              # Fixed buy amount
-BUY_UPPER_AMOUNT=0.002       # Upper limit for random buy amount
-BUY_LOWER_AMOUNT=0.001       # Lower limit for random buy amount
-
-BUY_INTERVAL_MAX=2000        # Maximum interval between buys in milliseconds
-BUY_INTERVAL_MIN=4000        # Minimum interval between buys in milliseconds
-
-CHECK_BAL_INTERVAL=3000      # Interval to check wallet balances in milliseconds
-DISTRIBUTE_WALLET_NUM=8      # Number of wallets to distribute SOL to
-
-SWAP_ROUTING=true            # Enable swap routing
-
-###### FOR MASSIVE BUY #####
-WALLET_NUM=8                 # Number of wallets for massive buy operations
-
-########## FOR SELL MODE ##########
-SELL_ALL_BY_TIMES=20         # Number of times to sell all tokens in sub-wallets gradually
-SELL_PERCENT=100             # Percentage of tokens to sell from the main wallet
-
-#### TOKEN PAIR SETTING ####
-TOKEN_MINT=6VbEGuqwhjdgV9NxhMhvRkrFqXVNk53CvD7hK3C3yQS9  # Token mint address
-POOL_ID=null                  # Pool ID for the token pair
-
-TX_FEE=10                    # Transaction fee
-ADDITIONAL_FEE=0.006         # Additional fee (should be larger than 0.006 SOL)
-JITO_KEY=                    # Jito key
-JITO_FEE=120000              # Jito fee
-BLOCKENGINE_URL=ny.mainnet.block-engine.jito.wtf  # Block engine URL
-
-###### GENERAL SETTING ######
-LOG_LEVEL=info               # Logging level (info, debug, error)
-```
 
 ## Usage
 1. Clone the repository
@@ -81,4 +37,4 @@ npm start
 
 ### Please fork to use it and follow me on github.
 
-### If you want more customized app, please contact [@dave](https://t.me/davevasu) in Telegram and [!Myrade](https://discordapp.com/users/197424152603394049) in Discord
+### If you want more customized app, please contact [@dieharye](https://t.me/dieharye) in Telegram
