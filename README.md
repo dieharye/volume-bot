@@ -1,4 +1,4 @@
-# Raydium Pairs Volume Bot
+# Volume Bot in Raydium Solana
 
 This bot is designed to increase the volume of a certain token in Raydium.
 This will help tokens increase their volume in the market and value as well.
