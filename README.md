@@ -37,4 +37,10 @@ npm start
 
 ### Please fork to use it and follow me on github.
 
-### If you want more customized app, please contact [@dieharye](https://t.me/midaBricoll) in Telegram
+### If you want more customized app, please contact 
+
+[Bricoll](https://t.me/midaBricoll) on Telegram
+
+[dieharye](https://x.com/dieharye) on Twitter
+
+
