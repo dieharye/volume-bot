@@ -16,7 +16,7 @@ This will help tokens increase their volume in the market and value as well.
 ## Usage
 1. Clone the repository
 ```
-git clone https://github.com/dieharye/volume-bot
+git clone https://github.com/dieharye/raydium-volume-bot
 cd raydium-volume-bot
 ```
 2. Install dependencies
